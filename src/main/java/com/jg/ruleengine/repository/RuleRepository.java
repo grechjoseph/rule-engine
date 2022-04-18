@@ -37,7 +37,7 @@ public class RuleRepository {
                                     .build(),
                             Condition.builder()
                                     .type(ConditionType.CONTAINS)
-                                    .expected("{'hello','goodbye'}")
+                                    .expected("{hello,goodbye}")
                                     .build()
                     ))
                     .build()
